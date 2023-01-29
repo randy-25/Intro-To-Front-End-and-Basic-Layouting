@@ -1,0 +1,39 @@
+@font-face {
+    font-family: header1;
+    src: url("assets/fonts/SourceSansPro-Black.ttf");
+}
+
+@font-face {
+    font-family: main1;
+    src: url("assets/fonts/Merriweather-Light.ttf");
+}
+
+@font-face {
+    font-family: main2;
+    src: url("assets/fonts/Merriweather-LightItalic.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DCA3C2;
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+.base{
+    display: flex;
+    flex-direction: row;
+}
+.ingredients{
+    font-family: main1;
+    font-size: 20px;
+}
+.preparation{
+    padding: 20px;
+    font-family: main1;
+    font-size: 20px;
+}

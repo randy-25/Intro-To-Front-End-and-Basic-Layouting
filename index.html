@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>codedamn Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="header-container">
+    <div class="head">
+      <h1>Easy Recipes</h1>
+      <p>src : <a href="https://tasty.co/article/jesseszewczyk/back-to-school-dinner-recipes">Click This!!!</a></p>
+      <button class="bottom-arrow" onclick="scrollElement()"><span>&#8595;</span></button>
+    </div>
+  </div>
+  <div class="menu-value-desktop" id="menu-value-desktop-Id">
+    <div class="main-menu">
+      <button>Recipes</button>
+    </div>
+    <div class="main-menu-symbol">
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-github"></a>
+    </div>
+  </div>
+  <div id="main-container-Id" class="main-container">
+
+    <div class="main-section-value">
+      <div class="item1">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>One-Pot Chicken and Mushroom Pasta</h1>
+        <img src="assets\images\1.webp" alt="1">
+        <button onclick="location.href = 'recipe1.html';">FULL RECIPES</button>
+      </div>
+
+      <div class="item2">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>One-Pan Garlic Butter Salmon</h1>
+        <img src="assets\images\2.webp" alt="2">
+        <button onclick="location.href = 'recipe2.html';">FULL RECIPES</button>
+      </div>
+
+      <div class="item3">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>Beef and Broccoli Noodle Stir-Fry</h1>
+        <img src="assets\images\3.webp" alt="3">
+        <button onclick="location.href = 'recipe3.html';">FULL RECIPES</button>
+      </div>
+
+      <div class="item4">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>Easy Chicken Alfredo Penne</h1>
+        <img src="assets\images\4.webp" alt="4">
+        <button onclick="location.href = 'recipe4.html';">FULL RECIPES</button>
+      </div>
+
+      <div class="item5">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>Chicken & Veggie Stir-Fry</h1>
+        <img src="assets\images\5.webp" alt="5">
+        <button onclick="location.href = 'recipe5.html';">FULL RECIPES</button>
+      </div>
+
+      <div class="item6">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>Slow Cooker Loaded Potato Soup</h1>
+        <img src="assets\images\6.webp" alt="6">
+        <button onclick="location.href = 'recipe6.html';">FULL RECIPES</button>
+      </div>
+
+      <div class="item7">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>Slow Cooker Creamy Beef Stroganoff</h1>
+        <img src="assets\images\7.webp" alt="7">
+        <button onclick="location.href = 'recipe7.html';">FULL RECIPES</button>
+      </div>
+
+      <div class="item8">
+        <hr width="99%" , color="#eeeeee" , noshade>
+        <h1>Lemon Garlic Parmesan Chicken Tenders</h1>
+        <img src="assets\images\8.webp" alt="8">
+        <button onclick="location.href = 'recipe8.html';">FULL RECIPES</button>
+      </div>
+    </div>
+  </div>
+  <hr width="99%" , color="#eeeeee" , noshade>
+  </div>
+  <script>
+    function scrollElement() {
+      let elmntToView = document.getElementById("menu-value-desktop-Id");
+      elmntToView.scrollIntoView();
+    }
+
+  </script>
+</body>
+
+</html>
